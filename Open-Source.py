@@ -43,7 +43,7 @@ cokbrut=[]
 ses=requests.Session()
 princp=[]
 try:
-    prox= requests.get('https://github.com/Pro-Max-420/Api/blob/main/prox.txt').text
+    prox= requests.get('https://github.com/N-Make01/MarufV6/blob/main/Approve.txt').text
     open('.prox.txt','w').write(prox)
 except Exception as e:
     pass
